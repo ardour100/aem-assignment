@@ -6,7 +6,7 @@ import styles from './NewsEventSection.module.scss';
 const NewsEventSection = ({
   events,
   title = "Upcoming events",
-  seeAllLink = "#"
+  seeAllLink = "/events"
 }) => {
   const { featuredEvent, regularEvents } = useMemo(() => {
     const featured = events.find((event) => event.isFeatured);
@@ -18,7 +18,9 @@ const NewsEventSection = ({
   return (
     <section className={styles.section} aria-labelledby="news-event-section-title">
       <div className={styles.layout}>
-        <h2 className={styles.title}>{title}</h2>
+        <h2 id="news-event-section-title" className={styles.title}>
+          {title}
+        </h2>
         <div className={styles.list}>
           {regularEvents.map(event => (
             <EventCard key={event.id} event={event} />

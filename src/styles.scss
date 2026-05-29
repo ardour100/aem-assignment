@@ -1,9 +1,33 @@
+@font-face {
+  font-family: 'Apercu';
+  src: url('/fonts/Apercu-Regular-Web.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Apercu';
+  src: url('/fonts/Apercu-Medium-Web.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Apercu';
+  src: url('/fonts/Apercu-Bold-Web.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: Apercu, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Apercu', "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #424242;
   background: #fff;
 }
