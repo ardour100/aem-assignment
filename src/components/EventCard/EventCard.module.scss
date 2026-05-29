@@ -1,0 +1,41 @@
+.card {
+  padding-bottom: 42px;
+  border-bottom: 1px solid #777;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover .title,
+  &:focus-visible .title {
+    color: #c63a1e;
+  }
+}
+
+.category {
+  display: block;
+  margin-bottom: 14px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0 0 16px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.details {
+  color: #444;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 1.4;
+}
