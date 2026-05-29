@@ -18,10 +18,10 @@
 }
 
 .category {
+  color: #000000;
   display: block;
   margin-bottom: 14px;
   font-size: 12px;
-  font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -31,11 +31,14 @@
   font-size: 22px;
   font-weight: 500;
   line-height: 1.25;
+  color: #141414;
 }
 
 .details {
-  color: #444;
-  font-size: 12px;
+  display: block;
+  margin-bottom: 0;
+  color: #424242;
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: 0.5px;
-  line-height: 1.4;
 }
