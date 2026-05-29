@@ -1,5 +1,15 @@
 # AEM Frontend Test
 
+## Testing Instructions
+
+```bash
+# Run development server
+npm run dev
+
+# Run unit tests
+npm test
+```
+
 ## Overview
 Create a responsive **News Event Component** that displays a list of upcoming events with a title, date, and description. The component should be reusable and work on both desktop and mobile devices.
 
