@@ -15,6 +15,6 @@ describe('EventCard', () => {
   it('renders as a link card', () => {
     render(<EventCard event={onlineEvent} />);
 
-    expect(screen.getByRole('link')).toHaveAttribute('href', '#');
+    expect(screen.getByRole('link')).toHaveAttribute('href', '/events');
   });
 });
