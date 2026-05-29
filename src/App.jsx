@@ -1,10 +1,14 @@
-import events from '../data.json';
-import { NewsEvents } from './components/NewsEventSection/NewsEvents.jsx';
+import eventData from '../data.json';
+import NewsEventSection from './components/NewsEventSection/NewsEventSection.jsx';
 
 export default function App() {
   return (
-    <>
-        <NewsEvents events={events} />
-    </>
+    <main className="page-wrapper">
+      <NewsEventSection 
+        events={eventData} 
+        title="Upcoming events"
+        seeAllLink="#"
+      />
+    </main>
   );
 }
