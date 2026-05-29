@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Apercu, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #424242;
+  background: #fff;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.site-chrome {
+  width: 100%;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+main {
+  width: min(100%, 1200px);
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+@media (max-width: 600px) {
+  .site-chrome {
+    padding: 15px;
+  }
+
+  main {
+    padding: 28px 15px;
+  }
+}
