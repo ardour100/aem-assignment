@@ -1,0 +1,96 @@
+<html>
+<head>
+    <title>Example HTML</title>
+    <link rel="stylesheet" href="wup-new-page-corporate-frontend-svelte.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        h1,h2,h3 {
+            font-family: "Apercu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            font-family: "Apercu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            /* You may use Arial / Helvetica default fonts */
+        }
+
+        header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            width: 100%;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #424242;
+        }
+
+        a {
+            color: #C63A1E;
+        }
+
+        .featured-event {
+            background-color: #ededed;
+        }
+
+        footer {
+            background-color: #f0f0f0;
+            padding: 20px;
+            width: 100%;
+            margin-top: 40px;
+        }
+
+        /* Mobile breakpoint: 600px */
+        @media (max-width: 600px) {
+            main {
+                padding: 15px;
+            }
+
+            header {
+                padding: 15px;
+            }
+
+            footer {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>Header (leave placeholder area as is)</header>
+    
+    <main>
+        
+        <h2>Upcoming events</h2>
+        
+        <div class="event">
+            <h3>Genai</h3>
+            <p>GenAI 303: Qualitative Analysis</p>
+            <p>June 16, TUESDAY, 2026, 10 am–12 pm, Online</p>
+        </div>
+
+        <div class="event">
+            <h3>Industry and commercialisation</h3>
+            <p>SPARK Sydney Information Session</p>
+            <p>May 26, TUESDAY, 2026, 11–11:45 am, Online</p>
+        </div>
+
+        <div class="event featured-event">
+            <h3>Publishing</h3>
+            <p>Nature Masterclass</p>
+            <p>June 2, TUESDAY, 2026, 9 am–5 pm, In person</p>
+        </div>
+
+        <p><a href="#">See all events <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" style="display: inline; vertical-align: middle; margin-left: 8px;"><path d="M5.004 16 13 8 5.004 0 3.67 1.333 10.335 8 3.67 14.667 5.004 16z" fill="currentColor"></path></svg></a></p>
+    </main>
+    
+    <footer>Footer (leave placeholder area as is)</footer>
+</body>
+</html>
